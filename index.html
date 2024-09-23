@@ -11,7 +11,7 @@
 
 <body>
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <a class="navbar-brand" href="#">Cloth Store</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,7 +19,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="#">Home</a>
                 </li>
                 <li class="nav-item">
@@ -41,24 +41,24 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="https://via.placeholder.com/1920x600" class="d-block w-100" alt="...">
+                <img src="./assets/home_banner.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Exclusive Offers</h5>
+                    <p>Don't miss out on our exclusive deals!</p>
+                </div>
+            </div>
+            <div class="carousel-item">  
+                <img src="./assets/polos&tees07.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Summer Collection</h5>
                     <p>Get ready for summer with our new collection!</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="https://via.placeholder.com/1920x600" class="d-block w-100" alt="...">
+                <img src="./assets/winter.webp" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Winter Collection</h5>
                     <p>Stay warm and stylish with our winter wear.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="https://via.placeholder.com/1920x600" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Exclusive Offers</h5>
-                    <p>Don't miss out on our exclusive deals!</p>
                 </div>
             </div>
         </div>
@@ -79,34 +79,100 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="https://via.placeholder.com/350x350" class="card-img-top" alt="...">
+                        <img src="./assets/1 (2).jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Product 1</h5>
-                            <p class="card-text">$49.99</p>
-                            <p class="card-text">High-quality summer t-shirt.</p>
-                            <a href="#" class="btn btn-primary">View Details</a>
+                            <h5 class="card-title">Oversize T-Shirt</h5>
+                            <p class="card-text">&#8377;1299</p>
+                            <p class="card-text">High-quality summer T-shirt.</p>
+                            <a href="javascript:void(0)" class="btn btn-dark">View Details</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="https://via.placeholder.com/350x350" class="card-img-top" alt="...">
+                        <img src="./assets/2.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Product 2</h5>
-                            <p class="card-text">$59.99</p>
-                            <p class="card-text">Stylish winter jacket.</p>
-                            <a href="#" class="btn btn-primary">View Details</a>
+                            <h5 class="card-title">Denim Shirt</h5>
+                            <p class="card-text">&#8377;1599</p>
+                            <p class="card-text">High-quality summer shirt.</p>
+                            <a href="javascript:void(0)" class="btn btn-dark">View Details</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="https://via.placeholder.com/350x350" class="card-img-top" alt="...">
+                        <img src="./assets/3.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Product 3</h5>
-                            <p class="card-text">$39.99</p>
-                            <p class="card-text">Comfortable jeans.</p>
-                            <a href="#" class="btn btn-primary">View Details</a>
+                            <h5 class="card-title">Baggy Jeans</h5>
+                            <p class="card-text">&#8377;1999</p>
+                            <p class="card-text">High-quality Jeans.</p>
+                            <a href="javascript:void(0)" class="btn btn-dark">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./assets/4.avif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Women dress</h5>
+                            <p class="card-text">&#8377;2299</p>
+                            <p class="card-text">High-quality summer wears.</p>
+                            <a href="javascript:void(0)" class="btn btn-dark">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./assets/5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Hand Bag for Women</h5>
+                            <p class="card-text">&#8377;999</p>
+                            <p class="card-text">High-quality Bag.</p>
+                            <a href="javascript:void(0)" class="btn btn-dark">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./assets/6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Footwear</h5>
+                            <p class="card-text">&#8377;1199</p>
+                            <p class="card-text">High-quality Footwear.</p>
+                            <a href="javascript:void(0)" class="btn btn-dark">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./assets/7.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Goggles</h5>
+                            <p class="card-text">&#8377;599</p>
+                            <p class="card-text">High-quality summer goggles.</p>
+                            <a href="javascript:void(0)" class="btn btn-dark">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./assets/10.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Jacket</h5>
+                            <p class="card-text">&#8377;2299</p>
+                            <p class="card-text">High-quality Stylish winter jacket.</p>
+                            <a href="javascript:void(0)" class="btn btn-dark">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./assets/9.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Confortable Jeans</h5>
+                            <p class="card-text">&#8377;1999</p>
+                            <p class="card-text">High-quality Comfortable jeans.</p>
+                            <a href="javascript:void(0)" class="btn btn-dark">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -137,10 +203,28 @@
                     <label for="message">Message</label>
                     <textarea class="form-control" id="message" rows="5" placeholder="Your Message"></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Send Message</button>
+                <button type="submit" class="btn btn-dark">Send Message</button>
             </form>
         </div>
     </section>
+
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p class="mb-0">© 2024 My Website. All rights reserved.</p>
+            <ul class="list-inline mt-2">
+                <li class="list-inline-item">
+                    <a href="javascript:void(0)" class="text-white">| Privacy Policy |</a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="javascript:void(0)" class="text-white">| Terms of Service |</a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#contact" class="text-white">| Contact Us |</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
